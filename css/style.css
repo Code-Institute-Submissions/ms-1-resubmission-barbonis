@@ -13,7 +13,7 @@ body {
 
 }
 
-/* navigation bar */
+/* ---------------------------------------------navigation bar */
 
 nav ul {
     list-style: none;
@@ -40,15 +40,14 @@ nav a {
 nav a:hover {
     color: #ece0cf;
 }
-
+/*--------------------------------------------- social networks- instagram & facebook*/
 .socials {
     display: inline-block;
     float: right;
 }
-/*Barbonis logo- follow the page when scrolling*/
 
-/* Home Page*/
-
+/* ---------------------------------------------Home Page*/
+/*--------------------------------------------- Barboni's takeout menu*/
 .home-title{
     text-align: center;
     font-family: 'Inter', sans-serif;
@@ -59,7 +58,7 @@ nav a:hover {
     letter-spacing: 5px;
     padding-top: 10%;
 }
-/* open fri, sat, sun 5pm-9pm*/
+/* ---------------------------------------------open fri, sat, sun 5pm-9pm*/
 .top-index p {
     text-align: center;
     font-family: 'Inter', sans-serif;
@@ -73,7 +72,7 @@ nav a:hover {
 
 }
 
-/* Click to call now button*/
+/* ---------------------------------------------Click to call now button*/
 
 #call-button {
     display: inline-block;
@@ -88,8 +87,8 @@ nav a:hover {
     border-width: 7px;
     text-decoration: none;
     cursor: pointer;
-    -webkit-animation-name: pulseLight;
-    -webkit-animation-duration: 2s;
+    animation-name: pulseLight;
+    animation-duration: 2s;
 
     
    
@@ -106,7 +105,7 @@ nav a:hover {
     padding: 0px;
 }
 
-/* Barboni's Takeout Menu  */
+/* ---------------------------------------------Barboni's Takeout Menu  */
 .menu {
     padding-top: 3%;
     color: #f3ece1;
@@ -142,13 +141,13 @@ border-bottom: 9px solid #ece0cf;
     font-size: 150%;
     font-weight: bolder;
 }
-
+/*--------------------------------------------- prices on menu*/
 .price {
     font-weight: 500;
     color: #ece0cf;
     margin-right: 40px;
 }
-
+/*--------------------------------------------- warning for dietry requirements*/
 #allergens {
     padding-top: 5%;
     text-transform: uppercase;
@@ -157,7 +156,7 @@ border-bottom: 9px solid #ece0cf;
 
 }
 
-/* footer on all pages*/
+/*--------------------------------------------- footer on all pages*/
 footer {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -174,7 +173,7 @@ footer p {
     text-align: center;
 }
 
-/*Pictures in the gallery*/
+/*---------------------------------------------Pictures in the gallery*/
 
 #picture {
 clear: both;
@@ -186,7 +185,7 @@ column-gap: 0;
 #picture img {
     width: 100%;
 }
-/* established 2014 and legal info */
+/* ---------------------------------------------established 2014 and legal info */
 .bottom-gallery p {
     font-style: 'Inter', sans-serif;
     font-size: smaller;
@@ -198,4 +197,17 @@ column-gap: 0;
     font-size: smaller;
     color: #f3ece1;
     text-align: center;
+}
+
+/* -------------------------------------------Barboni's logo on home page and about us page*/
+.logo-home {
+    border-radius: 90%;
+    width: 30%;
+    display: inline-block;
+}
+
+.logo-about {
+   border-radius: 90%;
+    width: 30%;
+    display: inline-block;  
 }
