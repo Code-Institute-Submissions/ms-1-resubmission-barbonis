@@ -29,6 +29,7 @@ nav li {
     height: 40px;
     display: inline-block;
     margin: 2.5%;
+    text-transform: uppercase;
 }
 
 nav a {
