@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    background-color: #9C99A3;
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: 'Oswald', sans-serif;
+
 }
 
 /* navigation bar */
 
 nav ul {
     list-style: none;
-    background-color: #d2cbc9;
-    text-align: center;
+    text-align: left;
+    background-color: #9C99A3;
     padding: 0;
     margin: 0;
 }
@@ -24,11 +31,92 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #ffffff;
+    color: #f3ece1;
     display: block;
 }
 
 nav a:hover {
     background-color: #ffffff;
-    color: #d2cbc9;
+    color: #9C99A3;
+
+    
+}
+
+.socials li {
+    font-size: 1.3em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 2.5%;
+}
+
+/* Home Page*/
+
+.home-title{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #f3ece1;
+    text-transform: uppercase;
+    font-size: 350%;
+    font-weight: 100;
+    letter-spacing: 5px;
+    padding-top: 10%;
+}
+
+.top-index p {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 3px;
+    font-size: 150%;
+    color: #f3ece1;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    text-transform: uppercase;
+    
+
+}
+#call-button {
+    display: inline-block;
+    position: relative;
+    padding: 3%;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    border: solid #f3ece1;
+    border-width: 7px;
+    text-decoration: none;
+    cursor: pointer;
+    
+   
+}
+#call-button p {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 300%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Barboni's Takeout Menu  */
+
+.menu {
+
+}
+
+/* footer on all pages*/
+
+footer p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f3ece1;
+    color: #9C99A3;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
 }
