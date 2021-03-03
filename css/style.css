@@ -164,5 +164,12 @@ footer p {
 /*Pictures in the gallery*/
 
 #picture {
+clear: both;
+line-height: 0;
+column-count: auto;
+column-gap: 0;
+}
 
+#picture img {
+    width: 100%;
 }
