@@ -103,8 +103,12 @@ nav a:hover {
 
 /* Barboni's Takeout Menu  */
 
-.menu {
-
+.menu h2 {
+text-decoration: underline;
+font-family: 'Inter', sans-serif;
+color: #f3ece1;
+letter-spacing: 3px;
+font-size: 200%;
 }
 
 /* footer on all pages*/
