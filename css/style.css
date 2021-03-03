@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 
 * {
     background-color: #9C99A3;
@@ -76,10 +78,12 @@ nav a:hover {
 #call-button {
     display: inline-block;
     position: relative;
-    padding: 25px;
-    width: 50%;
-    height: auto;
+    padding: 10px;
+    width:50%;
+    height: 5%;
     margin: auto;
+    margin-left: 350px;
+    margin-right: 350px;
     border: solid #f3ece1;
     border-width: 7px;
     text-decoration: none;
@@ -91,7 +95,7 @@ nav a:hover {
    
 }
 #call-button p {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     text-decoration: none;
     font-weight: 100;
     font-size: 300%;
@@ -139,9 +143,10 @@ border-bottom: 9px solid #ece0cf;
     font-weight: bolder;
 }
 
-.price h4 {
+.price {
     font-weight: 500;
     color: #ece0cf;
+    margin-right: 40px;
 }
 
 #allergens {
