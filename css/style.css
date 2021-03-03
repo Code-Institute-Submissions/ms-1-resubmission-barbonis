@@ -100,17 +100,32 @@ text-decoration: underline;
 font-family: 'Inter', sans-serif;
 color: #ece0cf;
 letter-spacing: 6px;
-font-size: 200%;
+font-size: 300%;
+font-weight: 400;
 text-align: center;
 text-transform: uppercase;
 padding-top: 5%;
-padding-bottom: 3%;
+padding-bottom: 1%;
 }
+.menu h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
 .menu h4 {
     text-transform: uppercase;
     font-family: 'Inter', sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     padding-top: 2%;
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+.price h4 {
+    font-weight: 500;
+    color: #ece0cf;
 }
 
 /* footer on all pages*/
