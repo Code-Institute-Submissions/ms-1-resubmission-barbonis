@@ -96,22 +96,24 @@ nav a {
     text-align: center;
 }
 .menu h2 {
-text-decoration: underline;
 font-family: 'Inter', sans-serif;
 color: #ece0cf;
-letter-spacing: 6px;
+letter-spacing: 8px;
 font-size: 300%;
 font-weight: 400;
 text-align: center;
 text-transform: uppercase;
 padding-top: 5%;
 padding-bottom: 1%;
+border-bottom: 10px solid #ece0cf;
 }
 .menu h3 {
     font-size: 200%;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 5px;
+    padding-top: 2%;
+    text-decoration: underline;
 }
 
 .menu h4 {
