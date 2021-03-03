@@ -38,6 +38,11 @@ nav a {
 nav a:hover {
     color: #ece0cf;
 }
+
+.socials {
+    display: inline-block;
+    float: right;
+}
 /*Barbonis logo- follow the page when scrolling*/
 
 /* Home Page*/
@@ -154,4 +159,10 @@ footer p {
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center;
+}
+
+/*Pictures in the gallery*/
+
+#picture {
+
 }
