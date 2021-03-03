@@ -35,6 +35,10 @@ nav a {
     display: block;
 }
 
+nav a:hover {
+    color: #ece0cf;
+}
+/*Barbonis logo- follow the page when scrolling*/
 
 /* Home Page*/
 
@@ -48,7 +52,7 @@ nav a {
     letter-spacing: 5px;
     padding-top: 10%;
 }
-
+/* open fri, sat, sun 5pm-9pm*/
 .top-index p {
     text-align: center;
     font-family: 'Inter', sans-serif;
@@ -61,6 +65,9 @@ nav a {
     
 
 }
+
+/* Click to call now button*/
+
 #call-button {
     display: inline-block;
     position: relative;
@@ -72,6 +79,8 @@ nav a {
     border-width: 7px;
     text-decoration: none;
     cursor: pointer;
+    -webkit-animation-name: pulseLight;
+    -webkit-animation-duration: 2s;
 
     
    
@@ -105,7 +114,7 @@ text-align: center;
 text-transform: uppercase;
 padding-top: 5%;
 padding-bottom: 1%;
-border-bottom: 10px solid #ece0cf;
+border-bottom: 9px solid #ece0cf;
 }
 .menu h3 {
     font-size: 200%;
