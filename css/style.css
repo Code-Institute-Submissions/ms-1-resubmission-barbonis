@@ -144,6 +144,14 @@ border-bottom: 9px solid #ece0cf;
     color: #ece0cf;
 }
 
+#allergens {
+    padding-top: 5%;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
 /* footer on all pages*/
 footer {
     padding-top: 5%;
@@ -172,4 +180,11 @@ column-gap: 0;
 
 #picture img {
     width: 100%;
+}
+
+.legal p {
+    font-style: 'Inter', sans-serif;
+    font-size: smaller;
+    color: #f3ece1;
+    text-align: center;
 }
