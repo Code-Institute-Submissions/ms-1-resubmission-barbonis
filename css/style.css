@@ -201,14 +201,18 @@ column-gap: 0;
 }
 
 /* -------------------------------------------Barboni's logo on home page and about us page*/
-.logo-home {
-    border-radius: 90%;
+img .logo {
+    border-radius: 50%;
     width: 30%;
-    display: inline-block;
+    
 }
 
-.logo-about {
-   border-radius: 90%;
-    width: 30%;
-    display: inline-block;  
+
+/* -------------------------------------------About Us page*/
+h1 {
+    font-style: 'Inter', sans-serif;
+    color: #ece0cf;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
