@@ -190,6 +190,9 @@ footer p {
     letter-spacing: 3px;
     text-align: center;
 }
+.address {
+    text-decoration: none;
+}
 
 /*---------------------------------------------Pictures in the gallery*/
 
