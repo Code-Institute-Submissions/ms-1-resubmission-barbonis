@@ -202,8 +202,13 @@ column-gap: 0;
 
 /* -------------------------------------------Barboni's logo on home page and about us page*/
 img .logo {
-    border-radius: 50%;
-    width: 30%;
+border-radius: 50%;
+clear: both;
+line-height: 0;
+column-count: auto;
+column-gap: 0;
+width: 50%;
+
     
 }
 
@@ -215,4 +220,45 @@ h1 {
     letter-spacing: 7px;
     text-transform: uppercase;
     text-decoration: underline;
+    font-size: 300%;
+    text-align: center;
+}
+
+.float-left {
+float: left;
+margin: 20px;
+}
+
+.float-left h2 {
+text-transform: uppercase;
+letter-spacing: 6px;
+color: #ece0cf;
+font-family: 'Inter', sans-serif;
+font-size: 200%;
+}
+
+.float-left p {
+color: #f3ece1;
+font-family: 'Inter', sans-serif;
+font-size: 100%;
+letter-spacing: 3px;
+}
+
+.right-img {
+clear: both;
+line-height: 0;
+column-count: auto;
+column-gap: 0;
+width: 50%;
+}
+
+.float-right {
+float: right;
+}
+
+#established p {
+    text-align: center;
+    font-size: smaller;
+    color: #f3ece1;
+    font-family: 'Inter', sans-serif;
 }
