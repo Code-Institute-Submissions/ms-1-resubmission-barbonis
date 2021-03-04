@@ -47,6 +47,20 @@ nav a:hover {
 }
 
 /* ---------------------------------------------Home Page*/
+
+/* -------------------------------------------Barboni's logo on home page */
+ .logo {
+border-radius: 50%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* Used https://www.w3schools.com/howto/howto_css_image_center.asp code to center the logos on home page */
+
 /*--------------------------------------------- Barboni's takeout menu*/
 .home-title{
     text-align: center;
@@ -201,6 +215,7 @@ clear: both;
 line-height: 0;
 column-count: auto;
 column-gap: 0;
+padding-top: 10px;
 }
 
 #picture img {
@@ -220,21 +235,8 @@ column-gap: 0;
     text-align: center;
 }
 
-/* -------------------------------------------Barboni's logo on home page and about us page*/
- .logo {
-border-radius: 50%;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-/* Used https://www.w3schools.com/howto/howto_css_image_center.asp code to center the logos on home page and about us page*/
-
-
 /*-----------------------------------------About Us page*/
+
 h1 {
     font-style: 'Inter', sans-serif;
     color: #ece0cf;
@@ -247,12 +249,12 @@ h1 {
     border-bottom: 9px solid #ece0cf;
 }
 
-/*----------------------------------------- Text for getting to know barboni's*/
+/*----------------------------------------- Text and heading for getting to know barboni's*/
 .float-left {
 float: left;
 padding-right: 350px;
 } 
-
+/*------------------------------------getting to know barbonis heading*/
 .float-left h2 {
 text-transform: uppercase;
 letter-spacing: 6px;
@@ -263,7 +265,7 @@ padding-left: 20px;
 padding-top: 20px;
 padding-bottom: 20px;
 }
-
+/*----------------------------------getting to know barbonis paragraphs*/
 .float-left p {
 color: #f3ece1;
 font-family: 'Inter', sans-serif;
@@ -273,21 +275,20 @@ padding-right: 500px;
 padding-left: 20px;
 }
 
-/*-----------------------------------------Image inline with text for getting to know barbonis (image of pizza)*/
+/*-----------------------------------------Image of pizza -about us page*/
 .right-img {
 clear: both;
 line-height: 0;
 column-count: auto;
 column-gap: 0;
-width: 50%;
+width: 150%;
 }
 
 .float-right {
 float: right;
-padding-left: 700px;
-padding-right: 20px;
+padding-left: 800px;
+padding-right: 30px;
 padding-bottom: 30px;
-
 }
 
 #established p {
