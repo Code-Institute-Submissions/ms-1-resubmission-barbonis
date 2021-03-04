@@ -93,7 +93,6 @@ border-radius: 50%;
     display: inline-block;
     position: relative;
     padding: 10px;
-    padding-bottom: 20px;
     width:50%;
     height: 5%;
     margin: auto;
@@ -139,20 +138,20 @@ border-radius: 50%;
 } /*used https://www.kevinleary.net/pulsating-css3-animations/ code to make call button pulse*/
 
 
-/* ------------------------------ image of collage of food on home page*/
+/*-------------------------------- collage of pictures on bottom of home page*/
+
 .home-food {
-clear: both;
-line-height: 0;
-column-count: auto;
-column-gap: 0;
-padding-top: 10px;
-padding-bottom: 10px;
+    
+    clear: both;
+    line-height: 0;
+    column-count: auto;
+    column-gap: 0;
+    padding-top: 30px;
 }
 
 .home-food img {
     width: 100%;
 }
-
 
 /* ---------------------------------------------Barboni's Takeout Menu  */
 .menu {
@@ -190,6 +189,25 @@ border-bottom: 9px solid #ece0cf;
     font-size: 150%;
     font-weight: bolder;
 }
+
+.menu p {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+/*------------------------------- image of pasta on menu page*/
+.pasta-pic {
+    
+    clear: both;
+    line-height: 0;
+    column-count: auto;
+    column-gap: 0;
+    padding-top: 10px;
+}
+
+.pasta-pic img {
+    width: 100%;
+}
+
 /*--------------------------------------------- prices on menu*/
 .price {
     font-weight: 500;
@@ -272,49 +290,27 @@ float: left;
 padding-right: 350px;
 } 
 /*------------------------------------getting to know barbonis heading*/
-.float-left h2 {
+.getting-to-know h2 {
 text-transform: uppercase;
 letter-spacing: 6px;
 color: #ece0cf;
 font-family: 'Inter', sans-serif;
-padding-left: 20px;
-padding-top: 20px;
+font-size: 200%;
+text-align: center;
 padding-bottom: 20px;
+padding-top: 30px;
 }
 /*----------------------------------getting to know barbonis paragraphs*/
-.float-left p {
+.getting-to-know p {
 color: #f3ece1;
 font-family: 'Inter', sans-serif;
 font-size: 100%;
 letter-spacing: 3px;
-padding-right: 500px;
-padding-left: 20px;
+text-align: center;
+padding-left: 50px;
+padding-right: 50px;
 }
 
-/*-----------------------------------------Image of pizza -about us page*/
-.pizza {
-clear: both;
-line-height: 0;
-column-count: auto;
-column-gap: 0;
-width: 150%;
-float: right;
-}
-
-
-
-/*.pizza{
-width: 100px;
-float: right;
-    } */
-
-.pizza img{
-    /*margin: auto 5px;*/
-    position: relative;
-    float: right;
-    /*width: 150px;
-    height: 38px;*/
-}
 
 #established p {
     text-align: center;
