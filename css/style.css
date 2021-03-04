@@ -93,6 +93,7 @@ border-radius: 50%;
     display: inline-block;
     position: relative;
     padding: 10px;
+    padding-bottom: 20px;
     width:50%;
     height: 5%;
     margin: auto;
@@ -136,6 +137,22 @@ border-radius: 50%;
         opacity: 0.5;
     }
 } /*used https://www.kevinleary.net/pulsating-css3-animations/ code to make call button pulse*/
+
+
+/* ------------------------------ image of collage of food on home page*/
+.home-food {
+clear: both;
+line-height: 0;
+column-count: auto;
+column-gap: 0;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.home-food img {
+    width: 100%;
+}
+
 
 /* ---------------------------------------------Barboni's Takeout Menu  */
 .menu {
@@ -260,7 +277,6 @@ text-transform: uppercase;
 letter-spacing: 6px;
 color: #ece0cf;
 font-family: 'Inter', sans-serif;
-font-size: 200%;
 padding-left: 20px;
 padding-top: 20px;
 padding-bottom: 20px;
@@ -276,26 +292,28 @@ padding-left: 20px;
 }
 
 /*-----------------------------------------Image of pizza -about us page*/
-.right-img {
+.pizza {
 clear: both;
 line-height: 0;
 column-count: auto;
 column-gap: 0;
 width: 150%;
+float: right;
 }
 
 
 
-.pizza{
+/*.pizza{
 width: 100px;
 float: right;
-    }
+    } */
 
 .pizza img{
-    margin: auto 5px;
+    /*margin: auto 5px;*/
+    position: relative;
     float: right;
-    width: 150px;
-    height: 38px;
+    /*width: 150px;
+    height: 38px;*/
 }
 
 #established p {
