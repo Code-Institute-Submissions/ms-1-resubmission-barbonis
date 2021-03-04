@@ -284,11 +284,18 @@ column-gap: 0;
 width: 150%;
 }
 
-.float-right {
+
+
+.pizza{
+width: 100px;
 float: right;
-padding-left: 800px;
-padding-right: 30px;
-padding-bottom: 30px;
+    }
+
+.pizza img{
+    margin: auto 5px;
+    float: right;
+    width: 150px;
+    height: 38px;
 }
 
 #established p {
